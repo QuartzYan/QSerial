@@ -24,10 +24,10 @@
 #ifndef QSERIALFRAME_H
 #define QSERIALFRAME_H
 
-#define MAX_RcvBUFF_LEN 1024
-#define MAX_SenBUFF_LEN 1024
+#define MAX_RcvBUFF_LEN 512
+#define MAX_SenBUFF_LEN 512
 
-#include <iostream>
+#include <arduino.h>
 
 typedef uint8_t byte;
 
