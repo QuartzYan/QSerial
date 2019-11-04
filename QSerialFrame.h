@@ -27,8 +27,6 @@
 #define MAX_RcvBUFF_LEN 512
 #define MAX_SenBUFF_LEN 512
 
-#include <arduino.h>
-
 typedef uint8_t byte;
 
 class QSerialFrame 
